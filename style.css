@@ -1,3 +1,5 @@
+ 
+
 *{
 	padding: 0px;
 	margin: 0px;
@@ -90,8 +92,20 @@
 	letter-spacing: 3px;
 	border-radius: 1px;
 	padding: 30px 30px;
-	background-color: #000;
+	 
 }
+
+.places h2:hover{
+	color: black;
+	font-size: 35px;
+	letter-spacing: 3px;
+	border-radius: 1px;
+	padding: 30px 30px;
+	 
+}
+
+
+
 .places a{
 	text-decoration: none;
 	color: red;
@@ -100,6 +114,21 @@
 	border-radius: 12px;
 	padding: 12px 30px;
 	background-color: #fff;
+}
+.places img{ 
+	color: red;
+	 
+	 
+	border-radius: 2px;
+	padding: 30px 60px;
+	 
+}
+ 
+.places img:hover{
+	 
+	 border-radius: 12px;
+	 padding:12px 30px;
+	transition: 0.6s;
 }
 .places a:hover{
 	background-color: #000;
@@ -123,6 +152,10 @@
 	text-decoration: underline;
 	transition: 0.4s;
 }
+
+
+
+
 
 
 
